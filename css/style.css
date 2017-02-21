@@ -1,0 +1,100 @@
+a.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    position: absolute;
+    top: 50px;
+    padding-left: 50px;
+    color: #ffffff;
+}    
+
+div.navigation-menu {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	position: absolute;
+	top: 60px;
+	right: 8px;
+	color: #ffffff;
+}
+
+a.menu {
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-right: 3rem;
+}
+
+a.menu:hover {
+	color: orange;
+}
+
+a.menu:focus {
+	color: orange;
+}
+
+p.portada {
+	position: absolute;
+	top: 200px;
+	left: 650px;
+	text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ffffff;
+    border-bottom: 2px solid;
+    padding: 12px; 
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 70px;
+	position: absolute;
+	top: 250px;
+	left: 400px;
+	font-family: 'Libre Baskerville', serif;
+	letter-spacing: 2px;
+}
+
+p.portada-subtitulo {
+	position: absolute;
+	top: 400px;
+	left: 580px;
+	text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: orange; 
+}
+
+a.button {
+	text-decoration: none;
+	position: absolute;
+	top:570px;
+	left: 610px;
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-right: 3rem;
+	text-transform: uppercase;
+	border: 2px solid;
+    padding: 12px 28px 12px 28px;
+    border-radius: 5px;
+}
+
+h2.text-subtitle {
+	font-family: 'Libre Baskerville', serif;
+	text-align: center;
+	color: #434343;
+	font-size: 20px;
+	padding-top: 2rem;
+	padding-left: 20rem;
+	padding-right: 20rem;
+	line-height: 2rem;
+}
