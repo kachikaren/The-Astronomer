@@ -40,7 +40,7 @@ a.menu:focus {
 
 p.portada {
 	position: absolute;
-	top: 200px;
+	top: 165px;
 	left: 650px;
 	text-transform: uppercase;
     text-decoration: none;
@@ -56,7 +56,7 @@ h1 {
 	color: #ffffff;
 	font-size: 70px;
 	position: absolute;
-	top: 250px;
+	top: 222px;
 	left: 400px;
 	font-family: 'Libre Baskerville', serif;
 	letter-spacing: 2px;
@@ -64,7 +64,7 @@ h1 {
 
 p.portada-subtitulo {
 	position: absolute;
-	top: 400px;
+	top: 340px;
 	left: 580px;
 	text-transform: uppercase;
     text-decoration: none;
@@ -77,7 +77,7 @@ p.portada-subtitulo {
 a.button {
 	text-decoration: none;
 	position: absolute;
-	top:520px;
+	top:450px;
 	left: 610px;
 	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
@@ -92,11 +92,14 @@ a.button {
 
 h2.text-subtitle {
 	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
 	text-align: center;
 	color: #434343;
 	font-size: 22px;
-	padding: 3% 30%;
-	line-height: 2rem;
+	line-height: 3rem;
+	margin: 50px 50px;
+	padding-left: 25rem;
+    padding-right: 25rem;
 }
 
 section.theme--purple {
@@ -105,14 +108,6 @@ section.theme--purple {
     background: rgba(32, 0, 128, 0.2);
     top: 0;
     width: 100%;
-}
-
-.header-section {
-    height: 100vh;
-    background: url('../imagen2.jpg');
-    background-size: cover;
-    background-position: center center;
-    position: relative;
 }
 
 p.text-container {
@@ -126,4 +121,45 @@ p.text-container {
     background-size: cover;
     background-position: center center;
     position: relative;
+}
+
+p.text-colum-left {
+    padding-left: 120px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+p.text-colum-right {
+    padding-left: 30px;
+    padding-right: 120px;
+    text-align: justify;
+}
+
+.linkarticles-section {
+    height: 80vh;
+    background: url('../img/imagen3.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 50px;
+}
+
+img.img-portada {
+	height: 300px;
+	padding-top: 20px;
+	padding-left: 120px;
+	padding-right: 30px;
+}
+
+img.img-portada-right {
+	height: 300px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 120px;
+}
+
+p.text-simple {
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: justify;
 }
